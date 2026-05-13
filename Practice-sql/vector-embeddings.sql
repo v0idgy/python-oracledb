@@ -43,6 +43,12 @@ order by distance
 fetch first 3 rows only;
 
 
+
+
+
+
+
+
 select vector_embedding(my_model using 'A high-quality camping gear') as auto_vector from dual;
 
 
