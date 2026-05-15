@@ -62,6 +62,14 @@ select tablespace_name,
 
 
 
+ create tablespace json_ts
+   datafile 'json_data.dbf' size 100M
+   autoextend on
+   extent management local
+segment space management auto;
+
+
+
 
 
 
